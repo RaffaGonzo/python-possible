@@ -57,7 +57,7 @@ Navigate to a directory (aka folder) on your computer. You may have done this be
 ```
 cd [drag and drop your folder here or type the path] 
 ```
-# The ```/[directory name]/``` that you see is how the computer knows where one directory name starts and ends. Stringing them together lets you map out the path you want the computer to follow. This notation is also used inside most programming lanquages.
+The `/[directory name]/` that you see is how the computer knows where one directory name starts and ends. Stringing them together lets you map out the path you want the computer to follow. This notation is also used inside most programming lanquages.
 
 List contents of current directory 
 
@@ -65,7 +65,7 @@ MAC:
 ```
 ls 
 ```
-# and if you want to see: hidden files and directorys add ```-a``` or the the permissions on the file ```-l```
+and if you want to see: hidden files and directorys add ```-a``` or the the permissions on the file ```-l```
 
 WINDOWS:
 ```
@@ -87,7 +87,7 @@ Go back one
 ```
 cd ..
 ```
-# this is technically another directory so you could for example ```cd ../[some directory]```
+this is technically another directory so you could for example ```cd ../[some directory]```
 
 MAC
 If you type `cd` without a folder name after, it takes you back to your home folder and if you type `cd /` it takes you to the root directory.
