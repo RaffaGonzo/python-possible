@@ -177,6 +177,8 @@ Unlike JavaScript, which runs when you load your website into a browser, a pytho
 
 * [PyCharm](https://www.jetbrains.com/pycharm/) is a nice IDE. The free community version is good. 
 
+* another is [Anaconda](https://www.anaconda.com/distribution/) which is great for maniging virtual environments, projects jupyter notebooks and more!
+
 Once you have your development environment set up, add your project folder to your editor or IDE (in Atom, go to File --> Add Project Folder). 
 
 Open your hello.py file in the editor. You should see the code that you typed via the command line. Now run the code in your editor or IDE. If you're using the Script package in Atom, you run with `COMMAND i`. 
