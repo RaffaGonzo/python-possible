@@ -52,11 +52,12 @@ say -v Karen hello
 
 ```
 Okay. Enough of that. 
-Navigate to a directory (aka folder) on your computer. You may have done this before. (cd stands for change directory). 
+Navigate to a directory (aka folder) on your computer. You may have done this before. (cd stands for change directory).
 
 ```
 cd [drag and drop your folder here or type the path] 
 ```
+# The ```/[directory name]/``` that you see is how the computer knows where one directory name starts and ends. Stringing them together lets you map out the path you want the computer to follow. This notation is also used inside most programming lanquages.
 
 List contents of current directory 
 
@@ -64,6 +65,8 @@ MAC:
 ```
 ls 
 ```
+# and if you want to see: hidden files and directorys add ```-a``` or the the permissions on the file ```-l```
+
 WINDOWS:
 ```
 dir
@@ -71,7 +74,7 @@ dir
 
 Show name of current directory and full path. 
 ###### Path means the route that your computer will take to reach a particular file. To the computer, this is a "string" of text that it will follow to find your file. 
-###### Fun fact: pwd stands for print working directory. 
+###### Fun fact: pwd stands for print working directory and will return the full path to it.
 
 MAC
 ```
@@ -79,14 +82,15 @@ pwd
 ```
 WINDOWS: plain old `cd` will print your working directory. 
 
-Go up one
+Go back one
 
 ```
 cd ..
 ```
+# this is technically another directory so you could for example ```cd ../[some directory]```
 
 MAC
-If you type `cd` without a folder name after, it takes you back to your home folder.
+If you type `cd` without a folder name after, it takes you back to your home folder and if you type `cd /` it takes you to the root directory.
 ```
 cd
 ```
@@ -99,7 +103,7 @@ cd\
 Now go to desktop
 
 ```
-cd desktop
+cd Desktop
 ```
 
 
