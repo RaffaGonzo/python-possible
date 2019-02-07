@@ -72,19 +72,20 @@ print(type(1))
 
 Some important types are:
 
-```python
-a_number = 1 				# an integer
+```python			# DATA_TYPE
+a_number = 1 			# an integer
 another_number = 5.1 		# a float
 some_string = "Hello!" 		# a string
 some_boolean = True 		# a boolean (notice the capitalization)
-a_list = ["a bunch", "of", "stuff", a_number, some_string]
-a_dictionary = {"key1": 10, "key2": "a string"} # a dictionary (key/value pairs)
+a_list = ["a bunch", "of", "stuff", a_number, some_string, 9, True] # list
+a_2d_list = [['list'],['of', 'lists']]
+a_dictionary = {"key1": 10, "key2": "a string"} # a dictionary {key:value_pairs} # dictionary
 ```
 
 In Python you do not need to declare variable types, or even that you are declaring a variable, you simply type a name, the equals sign, and then a value or expression.
 
 8. Create a new variable of each type. For example:
-```python
+```python			# DATA_TYPE
 people_at_table = 4	        # an integer
 sandwiches_I_ate = 1.5 		# a float
 best_friend = "Abbas" 		# a string
@@ -190,11 +191,21 @@ You can also determine if a string exists within another string with the `in` ke
 
 17. Check to see if a word is inside a song lyric (obviously this will become more powerful when you aren't writing the lyric out by hand, but be patient with this learning process):
 
-```python
+```# python
 sentence = "I do what I like, I do, I do"
 print("do" in sentence)
 print("boss" in sentence)
 ```
+
+you can reverse the list order, (or string or some other itterable).
+
+18. here check it out
+
+```python
+my_list = list(range(5)) # everything is an object so you can do this! (almost always)
+print(my_list)
+my_list = my_list[::-1] # casual variable reset
+print(my_list)
 
 #### String methods
 
@@ -307,7 +318,8 @@ for x in range(0, 3):
   print(x)
 
 ```    
-
+# fun fact
+you dont have to print everything if your in the python terminal! Whatever the function returns will show up if you don't set it to a variable.
 
 ### Reading files
 
@@ -318,7 +330,7 @@ Once we have opened a file, we use the `read` function to grab it's contents and
 In this example, we open a file and store its contents in a string. We then uppercase the entire file and print it to the screen.
 
 ```python
-content = open("frozen_lyrics.txt", "r").read()
+content = open("frozen_lyrics.txt", "r").read() # these are quotes bc they go to the cmd
 loud_frozen = content.upper()
 print(loud_frozen)
 ```
