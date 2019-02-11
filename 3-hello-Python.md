@@ -579,4 +579,10 @@ If you don’t know what to do try sorting, randomizing, replacing, deleting thi
 
 * If you’re feeling ambitious, make this program so that it can deal with any text. Make this poetic operation so it can work with any text that you feed it.
 
+# Kinda Mathy assignment
+Ever heard of the fibonacci sequence? It's (0, 1, 1, 2, 3, 5, 8, 13, 21...) the way to predict the next number in the pattern is to add the previous two number together. Try to write a program to predict the Nth number in the sequence.
+
+How long does it take to get the 11th number, what about the 24th, or 35th? 
+
+Try and write a faster version of the algorithm. (hint: dictionaries are your friend!)
 
